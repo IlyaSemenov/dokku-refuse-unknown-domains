@@ -1,4 +1,4 @@
 FROM busybox
 ADD nginx.conf.sigil /app/
-CMD tail -f /dev/null
+CMD cat
 EXPOSE 80
